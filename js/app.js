@@ -1128,14 +1128,14 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Website: https://aptitude.pub/",
-        "Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus"
       ]
     },
     {
@@ -1210,7 +1210,7 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       id: "issues",
       title: "If You Have Issues",
       paragraphs: [
-        "Contact us on Discord with your error and we will help you: https://https://discord.gg/2jduYhKbZn"
+        "Contact us on Discord with your error and we will help you: https://discord.gg/2jduYhKbZn"
       ]
     }
   ],
@@ -1230,16 +1230,16 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://uniqueloader.com/r6s",
-        "Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com",
-        "Disable Secure Boot: https://your-secure-boot-doc-link.com",
-        "Disable Windows Security: https://your-windows-security-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+        "Disable Secure Boot: https://docs.ghostware.cc/#getting-started/secure-boot",
+        "Disable Windows Security: https://docs.ghostware.cc/#getting-started/windows-security"
       ]
     },
     {
@@ -1371,16 +1371,16 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://mega.nz/folder/OAkhFCbJ#X0bbzcy5PFIiOJOWnuQyog",
-        "Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com",
-        "Disable Secure Boot: https://your-secure-boot-doc-link.com",
-        "Disable Virtualization: https://your-virtualization-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+        "Disable Secure Boot: https://docs.ghostware.cc/#getting-started/secure-boot",
+        "Disable Virtualization: https://docs.ghostware.cc/#getting-started/virtualization-errors"
       ]
     },
     {
@@ -1484,15 +1484,15 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://uniqueloader.com/r6s",
-        "Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com",
-        "Disable Windows Security: https://your-windows-security-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+        "Disable Windows Security: https://docs.ghostware.cc/#getting-started/windows-security"
       ]
     },
     {
@@ -1819,17 +1819,17 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://undetect.net/download/loader",
-        "Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe",
-        "Overlay: https://your-overlay-link.com"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables",
+        "Overlay: https://docs.ghostware.cc/#getting-started/required-overlays"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com",
-        "Disable Secure Boot: https://your-secure-boot-doc-link.com",
-        "Disable Virtualization: https://your-virtualization-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+        "Disable Secure Boot: https://docs.ghostware.cc/#getting-started/secure-boot",
+        "Disable Virtualization: https://docs.ghostware.cc/#getting-started/virtualization-errors"
       ]
     },
     {
@@ -2090,17 +2090,17 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://undetect.net/download/loader",
-        "Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe",
-        "Overlay: https://your-overlay-link.com"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables",
+        "Overlay: https://docs.ghostware.cc/#getting-started/required-overlays"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com",
-        "Disable Secure Boot: https://your-secure-boot-doc-link.com",
-        "Disable Virtualization: https://your-virtualization-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+        "Disable Secure Boot: https://docs.ghostware.cc/#getting-started/secure-boot",
+        "Disable Virtualization: https://docs.ghostware.cc/#getting-started/virtualization-errors"
       ]
     },
     {
@@ -2361,16 +2361,16 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://mega.nz/folder/nRUWiKoI#RSfQ5Bh9oSBWpRhnvLxm7g",
-        "Visual C++ Redistributable: https://mega.nz"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com",
-        "Disable Secure Boot: https://your-secure-boot-doc-link.com",
-        "Disable Windows Security: https://your-windows-security-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+        "Disable Secure Boot: https://docs.ghostware.cc/#getting-started/secure-boot",
+        "Disable Windows Security: https://docs.ghostware.cc/#getting-started/windows-security"
       ]
     },
     {
@@ -2488,17 +2488,17 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://undetect.net/download/loader",
-        "Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe",
-        "Overlay: https://your-overlay-link.com"
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables",
+        "Overlay: https://docs.ghostware.cc/#getting-started/required-overlays"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Windows Defender: https://your-defender-doc-link.com",
-        "Disable Secure Boot: https://your-secure-boot-doc-link.com",
-        "Disable Virtualization: https://your-virtualization-doc-link.com"
+        "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+        "Disable Secure Boot: https://docs.ghostware.cc/#getting-started/secure-boot",
+        "Disable Virtualization: https://docs.ghostware.cc/#getting-started/virtualization-errors"
       ]
     },
     {
@@ -2759,19 +2759,19 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       title: "Required Files",
       list: [
         "Loader: https://loader.unbanned.gg/download",
-        "Defender Control: https://www.sordum.org",
-        "Visual C++ Redistributable: https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/"
+        "Defender Control: https://docs.ghostware.cc/#anti-virus",
+        "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
       ]
     },
     {
       id: "before-you-start",
       title: "Before You Start",
       list: [
-        "Disable Hyper-V: ",
-        "Enable Virtualization in BIOS: ",
+        "Disable Hyper-V",
+        "Enable Virtualization in BIOS: https://docs.ghostware.cc/#getting-started/virtualization-errors",
         "Disable all anti-cheat software before spoofing",
         "Disable all VPN services while spoofing",
-        "Disable antivirus using Defender Control: ",
+        "Disable antivirus using Defender Control: https://docs.ghostware.cc/#anti-virus",
         "Install runtime files before use: https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/"
       ]
     },
