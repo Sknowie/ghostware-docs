@@ -3684,15 +3684,3 @@ if (!window.location.hash) {
 
 renderSidebar(currentSlug);
 handleRouteChange();
-
-// =========================
-// DISCORD FLOAT BUTTON
-// =========================
-
-document.body.insertAdjacentHTML("beforeend", `
-  <a href="https://discord.gg/2jduYhKbZn" target="_blank" rel="noopener noreferrer" class="gw-discord-float">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gw-discord-icon">
-      <path fill="currentColor" d="M20.317 4.369a19.791 19.791 0 0 0-4.885-1.515a13.66 13.66 0 0 0-.626 1.29a18.27 18.27 0 0 0-5.612 0a13.66 13.66 0 0 0-.626-1.29a19.736 19.736 0 0 0-4.885 1.515C.533 9.045-.32 13.58.099 18.057a19.9 19.9 0 0 0 5.993 3.03a14.18 14.18 0 0 0 1.282-2.066a12.9 12.9 0 0 1-2.03-.974c.17-.124.336-.254.496-.39c3.92 1.84 8.176 1.84 12.045 0c.16.136.326.266.496.39a12.9 12.9 0 0 1-2.03.974c.37.72.8 1.413 1.282 2.066a19.9 19.9 0 0 0 5.993-3.03c.5-5.177-.838-9.673-3.279-13.688Z"/>
-    </svg>
-  </a>
-`);
