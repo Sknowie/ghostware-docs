@@ -27,7 +27,10 @@ const NAV_GROUPS = [
   {
     id: "rust",
     title: "Rust",
-    pages: [{ slug: "rust/ancient", title: "Ancient" }]
+    pages: [
+      { slug: "rust/exodus", title: "Exodus" },
+      { slug: "rust/ancient", title: "Ancient" }
+    ]
   },
   {
     id: "arc-raiders",
@@ -40,7 +43,10 @@ const NAV_GROUPS = [
   {
     id: "fortnite",
     title: "Fortnite",
-    pages: [{ slug: "fortnite/ancient", title: "Ancient" }]
+    pages: [
+      { slug: "fortnite/ancient", title: "Ancient" },
+      { slug: "fortnite/exodus", title: "Exodus" }
+    ]
   },
   {
     id: "apex-legends",
@@ -1364,7 +1370,7 @@ del "C:\\Windows\\System32\\hvax64.exe"`
     next: "rainbow-six/exodus"
   },
 
-  "rainbow-six/exodus": {
+    "rainbow-six/exodus": {
     slug: "rainbow-six/exodus",
     groupId: "rainbow",
     groupTitle: "Rainbow Six Siege",
@@ -1376,7 +1382,7 @@ del "C:\\Windows\\System32\\hvax64.exe"`
         title: "Required Files",
         list: [
           "Loader: https://undetect.net/loader_exodus",
-          "Medal.TV: : https://medal.tv/",
+          "Medal.TV: https://medal.tv/",
           "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
         ]
       },
@@ -1786,9 +1792,91 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       }
     ],
     prev: "rainbow-six/vega",
-    next: "rust/ancient"
+    next: "rust/exodus"
   },
+  "rust/exodus": {
+    slug: "rust/exodus",
+    groupId: "rust",
+    groupTitle: "Rust",
+    title: "Exodus",
+    intro: "Exodus setup and support information.",
+    sections: [
+      {
+        id: "required-files",
+        title: "Required Files",
+        list: [
+          "Loader: https://undetect.net/loader_exodus",
+          "Medal.TV: https://medal.tv/",
+          "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
+        ]
+      },
+      {
+        id: "before-you-start",
+        title: "Before You Start",
+        list: [
+          "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+          "Disable Virtualization: https://docs.ghostware.cc/#getting-started/virtualization-errors",
+          "Disable Windows Security: https://docs.ghostware.cc/#getting-started/windows-security"
+        ]
+      },
+      {
+        id: "instructions",
+        title: "Step-by-Step Instructions",
+        steps: [
+          {
+            title: "Download Loader & Medal.TV",
+            content: [
+              "Download the loader & Medal.TV from the provided links"
+            ]
+          },
+          {
+            title: "Extract Files",
+            content: [
+              "Extract the archive to a new folder",
+              "Place it on Desktop or C:\\ drive"
+            ]
+          },
+          {
+            title: "Run Medal.TV & Loader",
+            content: [
+              "Open Medal.TV as Administrator",
+              "Right-click the loader → Run as Administrator"
+            ]
+          },
+          {
+            title: "Login / Inject",
+            content: [
+              "Enter your key in the loader by right-clicking",
+              "Inject and wait for completion",
+              "You may be prompted to restart your PC, If so load the loader again after restarting"
+            ]
+          },
+          {
+            title: "Launch Game",
+            content: [
+              "After succesful injection start Rust"
+            ]
+          },
+          {
+            title: "Open Menu",
+            content: [
+              "Once in main menu press INSERT in-game"
+            ]
+          }
+        ]
+      },
+      {
+        id: "issues",
+        title: "If You Have Issues",
+        paragraphs: [
+          "Contact us on Discord with your error and we will help you: https://discord.gg/2jduYhKbZn"
+        ]
+      }
+    ],
+    prev: "rainbow-six/void",
+    next: "rust/ancient"
 
+  },
   "rust/ancient": {
     slug: "rust/ancient",
     groupId: "rust",
@@ -2056,7 +2144,7 @@ del "C:\\Windows\\System32\\hvax64.exe"`
         ]
       }
     ],
-    prev: "rainbow-six/void",
+    prev: "rust/exodus",
     next: "arc-raiders/ancient"
   },
 
@@ -2331,7 +2419,7 @@ del "C:\\Windows\\System32\\hvax64.exe"`
     next: "arc-raiders/fecurity"
   },
 
-  "arc-raiders/fecurity": {
+    "arc-raiders/fecurity": {
     slug: "arc-raiders/fecurity",
     groupId: "arc-raiders",
     groupTitle: "Arc Raiders",
@@ -2455,6 +2543,88 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       }
     ],
     prev: "arc-raiders/ancient",
+    next: "fortnite/exodus"
+  },
+    "fortnite/exodus": {
+    slug: "fortnite/exodus",
+    groupId: "fortnite",
+    groupTitle: "Fortnite",
+    title: "Exodus",
+    intro: "Exodus setup and support information.",
+    sections: [
+      {
+        id: "required-files",
+        title: "Required Files",
+        list: [
+          "Loader: https://undetect.net/loader_exodus",
+          "Medal.TV: https://medal.tv/",
+          "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables"
+        ]
+      },
+      {
+        id: "before-you-start",
+        title: "Before You Start",
+        list: [
+          "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+          "Disable Virtualization: https://docs.ghostware.cc/#getting-started/virtualization-errors",
+          "Disable Windows Security: https://docs.ghostware.cc/#getting-started/windows-security"
+        ]
+      },
+      {
+        id: "instructions",
+        title: "Step-by-Step Instructions",
+        steps: [
+          {
+            title: "Download Loader & Medal.TV",
+            content: [
+              "Download the loader & Medal.TV from the provided links"
+            ]
+          },
+          {
+            title: "Extract Files",
+            content: [
+              "Extract the archive to a new folder",
+              "Place it on Desktop or C:\\ drive"
+            ]
+          },
+          {
+            title: "Run Medal.TV & Loader",
+            content: [
+              "Open Medal.TV as Administrator",
+              "Right-click the loader → Run as Administrator"
+            ]
+          },
+          {
+            title: "Login / Inject",
+            content: [
+              "Enter your key in the loader by right-clicking",
+              "Inject and wait for completion",
+              "You may be prompted to restart your PC, If so load the loader again after restarting"
+            ]
+          },
+          {
+            title: "Launch Game",
+            content: [
+              "After succesful injection start Fortnite"
+            ]
+          },
+          {
+            title: "Open Menu",
+            content: [
+              "Once in main menu press INSERT in-game"
+            ]
+          }
+        ]
+      },
+      {
+        id: "issues",
+        title: "If You Have Issues",
+        paragraphs: [
+          "Contact us on Discord with your error and we will help you: https://discord.gg/2jduYhKbZn"
+        ]
+      }
+    ],
+    prev: "arc-raiders/fecurity",
     next: "fortnite/ancient"
   },
 
@@ -2798,7 +2968,7 @@ del "C:\\Windows\\System32\\hvax64.exe"`
         ]
       }
     ],
-    prev: "fortnite/ancient",
+    prev: "fortnite/exodus",
     next: "counter-strike/predator"
   },
 
