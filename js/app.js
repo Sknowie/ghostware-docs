@@ -1127,12 +1127,12 @@ del "C:\\Windows\\System32\\hvax64.exe"`
     prev: "getting-started/virtualization-errors",
     next: "rainbow-six/ancient"
   },
-    "rust/ancient": {
-    slug: "rust/ancient",
-    groupId: "rust",
-    groupTitle: "Rust",
+    "rainbow-six/ancient": {
+    slug: "rainbow-six/ancient",
+    groupId: "rainbow",
+    groupTitle: "Rainbow Six Siege",
     title: "Ancient",
-    intro: "Ancient setup and support information for Rust.",
+    intro: "Ancient setup and support information for Rainbow Six.",
     sections: [
       {
         id: "required-files",
