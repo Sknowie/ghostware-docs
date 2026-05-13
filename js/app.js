@@ -17,6 +17,7 @@ const NAV_GROUPS = [
     id: "rainbow",
     title: "Rainbow Six Siege",
     pages: [
+      { slug: "rainbow-six/ancient", title: "Ancient" },
       { slug: "rainbow-six/aptitude", title: "Aptitude" },
       { slug: "rainbow-six/crusader", title: "Crusader" },
       { slug: "rainbow-six/exodus", title: "Exodus" },
@@ -1124,6 +1125,276 @@ del "C:\\Windows\\System32\\hvax64.exe"`
       }
     ],
     prev: "getting-started/virtualization-errors",
+    next: "rainbow-six/ancient"
+  },
+    "rust/ancient": {
+    slug: "rust/ancient",
+    groupId: "rust",
+    groupTitle: "Rust",
+    title: "Ancient",
+    intro: "Ancient setup and support information for Rust.",
+    sections: [
+      {
+        id: "required-files",
+        title: "Required Files",
+        list: [
+          "Loader: https://undetect.net/download/loader",
+          "Visual C++ Redistributable: https://docs.ghostware.cc/#getting-started/redistributables",
+          "Overlay: https://docs.ghostware.cc/#getting-started/required-overlays"
+        ]
+      },
+      {
+        id: "before-you-start",
+        title: "Before You Start",
+        list: [
+          "Disable Windows Defender: https://docs.ghostware.cc/#anti-virus",
+          "Disable Secure Boot: https://docs.ghostware.cc/#getting-started/secure-boot",
+          "Disable Virtualization: https://docs.ghostware.cc/#getting-started/virtualization-errors"
+        ]
+      },
+      {
+        id: "instructions",
+        title: "Step-by-Step Instructions",
+        steps: [
+          {
+            title: "Launch",
+            content: [
+              "Launch the loader"
+            ]
+          },
+          {
+            title: "Enter Key",
+            content: [
+              "Enter your key"
+            ]
+          },
+          {
+            title: "Inject",
+            content: [
+              "Press Inject"
+            ]
+          },
+          {
+            title: "After Inject",
+            content: [
+              "The loader will close automatically after injection",
+              "Once closed, you can launch the game"
+            ]
+          },
+          {
+            title: "Open Menu",
+            content: [
+              "Press the INSERT key in-game to open the menu"
+            ]
+          }
+        ]
+      },
+      {
+        id: "loader-not-injecting",
+        title: "Loader Not Injecting (Stuck Loading)",
+        steps: [
+          {
+            title: "Fix",
+            content: [
+              "Create a new folder on Desktop (e.g. C:\\Users\\YourName\\Desktop\\Loader)",
+              "Move the loader into this folder",
+              "Ensure no other files are inside",
+              "Right-click loader → Run as administrator",
+              "Launch again"
+            ]
+          }
+        ]
+      },
+      {
+        id: "overlay-issues",
+        title: "Overlay Issues",
+        steps: [
+          {
+            title: "GeForce Error",
+            content: [
+              "Disable and re-enable GeForce overlay"
+            ]
+          },
+          {
+            title: "SteelSeries Sonar Error",
+            content: [
+              "Press Sonar bind before launching"
+            ]
+          }
+        ]
+      },
+      {
+        id: "display-issues",
+        title: "Display Issues",
+        steps: [
+          {
+            title: "Menu Flickering / Black Screen",
+            content: [
+              "Open SteelSeries",
+              "Go to Settings → MOMENTS → Capture and sound",
+              "Disable \"Allow Moments to capture while gaming\""
+            ]
+          },
+          {
+            title: "No Menu / Loader Closes",
+            content: [
+              "Install Visual C++ Redistributable (VC Redist x64)"
+            ]
+          }
+        ]
+      },
+      {
+        id: "bind-issues",
+        title: "Bind Issues",
+        steps: [
+          {
+            title: "Fix",
+            content: [
+              "Reinject",
+              "Run overlay as administrator"
+            ]
+          }
+        ]
+      },
+      {
+        id: "technical-errors",
+        title: "Technical Errors",
+        steps: [
+          {
+            title: "0x296",
+            content: [
+              "Reinject"
+            ]
+          },
+          {
+            title: "Unknown Network Error",
+            content: [
+              "Check internet connection",
+              "Disable VPN"
+            ]
+          },
+          {
+            title: "Memory Allocation Errors",
+            content: [
+              "Restart PC",
+              "Try another PC (internet cafe)",
+              "Clean startup programs"
+            ]
+          },
+          {
+            title: "Dependency Errors",
+            content: [
+              "Disable all protection",
+              "Remove antivirus / anti-readers",
+              "Clean startup programs"
+            ]
+          },
+          {
+            title: "Anti-Cheat Conflicts",
+            content: [
+              "Uninstall Vanguard / Faceit"
+            ]
+          },
+          {
+            title: "AES Instruction Error",
+            content: [
+              "CPU does not support AES",
+              "Requires hardware upgrade"
+            ]
+          }
+        ]
+      },
+      {
+        id: "virtualization-errors",
+        title: "Virtualization Errors",
+        steps: [
+          {
+            title: "VMX / SVM Not Supported",
+            content: [
+              "Disable Hyper-V and Virtual Machine Platform"
+            ]
+          },
+          {
+            title: "Disable Hypervisor",
+            content: []
+          },
+          {
+            title: "Windows 11 Advanced Fix",
+            content: []
+          }
+        ],
+        codeBlocks: [
+          {
+            code: `bcdedit /set hypervisorlaunchtype off`
+          },
+          {
+            code: `# Run PowerShell as Administrator and paste the following:
+takeown /F "C:\\Windows\\System32\\hvix64.exe"
+icacls "C:\\Windows\\System32\\hvix64.exe" /grant *S-1-5-32-544:F
+takeown /F "C:\\Windows\\System32\\hvax64.exe"
+icacls "C:\\Windows\\System32\\hvax64.exe" /grant *S-1-5-32-544:F
+del "C:\\Windows\\System32\\hvix64.exe"
+del "C:\\Windows\\System32\\hvax64.exe"`
+          }
+        ]
+      },
+      {
+        id: "hwid-issues",
+        title: "HWID Issues",
+        steps: [
+          {
+            title: "Check System",
+            content: [
+              "wmic diskdrive get Caption,SerialNumber",
+              "wmic baseboard get SerialNumber"
+            ]
+          }
+        ]
+      },
+      {
+        id: "failed-to-map-memory",
+        title: "Failed to Map Memory / Advanced Fix",
+        steps: [
+          {
+            title: "Option 1 (Recommended)",
+            content: [
+              "Disable all startup programs in Task Manager",
+              "Restart PC",
+              "Try again"
+            ]
+          },
+          {
+            title: "Option 2",
+            content: [
+              "Download Autoruns: https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns",
+              "Disable unnecessary startup items",
+              "Restart PC",
+              "Try again"
+            ]
+          }
+        ]
+      },
+      {
+        id: "error-0x298-0",
+        title: "Error 0x298(0)",
+        steps: [
+          {
+            title: "Fix",
+            content: [
+              "Use VPN"
+            ]
+          }
+        ]
+      },
+      {
+        id: "issues",
+        title: "If You Have Issues",
+        paragraphs: [
+          "Contact us on discord with your error and we will help you: https://discord.gg/2jduYhKbZn"
+        ]
+      }
+    ],
+    prev: "getting-started/required-overlays",
     next: "rainbow-six/aptitude"
   },
 
